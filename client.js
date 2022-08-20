@@ -40,8 +40,8 @@ import { OBJLoader } from './jsm/loaders/OBJLoader.js';
 
 // Create a material
 var textureLoader = new THREE.TextureLoader();
-var map = textureLoader.load('./textures/.jpg');
-// var map = textureLoader.load('download.jpg');
+// var map = textureLoader.load('./textures/.jpg');
+var map = textureLoader.load('/bricks.webp');
 var material = new THREE.MeshPhongMaterial({map: map});
 
 var loader = new OBJLoader();
