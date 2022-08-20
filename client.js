@@ -106,7 +106,7 @@ const water = new Water(
 );
 water.rotation.x = -Math.PI / 2;
 
-scene.add(water);
+// scene.add(water);
 
 const sky = new Sky();
 sky.scale.setScalar(10000);
