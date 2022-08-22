@@ -5,38 +5,7 @@ import { GUI } from './jsm/libs/lil-gui.module.min.js';
 import { Water } from './jsm/objects/Water.js';
 import { Sky } from './jsm/objects/Sky.js';
 
-// import { GroundProjectedEnv } from './jsm/objects/.GroundPrtojectedEnv.js';
-
-// import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
-
 import { OBJLoader } from './jsm/loaders/OBJLoader.js';
-
-
-// loader =new OBJloader()
-
-//Load Model
-
-// class House {
-//     constructor() {
-
-//         let loader = new GLTFLoader();
-//         loader.load("./house/scene.gltf", function (gltf) {
-//             scene.add(gltf.scene);
-//             this.house=gltf.scene
-//         });
-
-//     }
-// }
-
-// const house= new House()
-
-// let loader = new GLTFLoader();
-// loader.load("./windmill/scene.gltf", function (gltf) {
-//     scene.add(gltf.scene);
-//     house = gltf.scene.children[0];
-//     animate();
-// });
-
 
 // Create a material
 var textureLoader = new THREE.TextureLoader();
